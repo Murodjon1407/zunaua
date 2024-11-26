@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  rgb(1, 78, 86);;
+}
+.header{
+    max-width: 100px;
+}
+.header__nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 500px;
+    margin-left: 250px;
+    margin-top:30px ;
+}
+.header__ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.header__btn{
+    border-radius: 25px;
+    width: 100px;
+    height: 40px;
+    margin-top: -10px;
+    
+}
+.header__btn:hover{
+    color: blue;
+    background-color: black;
+}
+.hero{
+    display: flex;
+    margin-top: 200px;
+
+
+}
+.hero__h2{
+    color: wheat;
+    font-size: 70px;
+}
+.hero__p{
+    color: wheat;
+    font-size: 25xp;
+}
+.hero__text{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-left: 250px;
+}
+.meet{
+    background-color:  rgb(0, 64, 71);
+    margin-top: 200px;
+
+}
+.meet__h2{
+    text-align: center;
+    font-size: 50px;
+    color: wheat;
+
+}
+.klent__1{
+    background-color: #012f34;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    margin-top: 20px;
+}
+.klent__img1{
+    margin-top: 110px;
+}
+.klent__2{
+    background-color: #012f34;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    margin-top: 20px;
+}
+.klent__3{
+    background-color: #012f34;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    margin-top: 20px;
+}
+.murod{
+    display: flex;
+    gap: 50px;
+}
+.section__h2{
+    text-align: center;
+    justify-content: center;
+    margin-top: 200px;
+    font-size: 50px;
+
+}
+.section__123{
+    background-color: rgb(1, 78, 86);
+
+}
+
+.section__img{
+    width: 1300px;
+    padding: 35px;
+}
+.zuba{
+padding-top: 3%;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:  rgb(246, 126, 126);
+}
+.zuba__h2{
+    font-size: 45px;
+}
+.zuba__btn{
+    border-radius: 15px;
+    width: 100px;
+    height: 40px;
+}
+.footer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+    background: rgb(0, 37, 41);
+}
+.footer__item{
+    
+    display: flex;
+    gap: 20px;
+}
